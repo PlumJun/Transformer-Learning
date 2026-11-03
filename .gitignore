@@ -1,0 +1,35 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# IDE and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Training checkpoints and generated experiment outputs
+Transformer_code/weights/
+Transformer_code/run/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.log
+
+# Training corpora and derived data (keep data processing scripts)
+Transformer_code/data/json/
+Transformer_code/data/corpus.*
